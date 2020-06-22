@@ -20,3 +20,7 @@ excluding the first image
 imagelist = [im2,im3,im4]
 
 im1.save(r'path where the pdf will be stored\new file name.pdf',save_all=True, append_images=imagelist)
+
+"""
+If you need to convert jpg format pictures to pdf, please replace all png in the template with jpg.
+"""
